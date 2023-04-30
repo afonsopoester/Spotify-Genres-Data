@@ -17,12 +17,11 @@ library(RColorBrewer)
 genres <- read.csv("genres_v2.csv/genres_v2.csv")
 ```
 
-```
 A dataset of continuous variables
 An interesting question in these situations might be the correlation
 So we make a corrplot
 
-
+```
 genres <- genres %>%
   select(danceability, energy, key, loudness, mode,
          speechiness, acousticness, instrumentalness,
