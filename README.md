@@ -1,4 +1,8 @@
-# correlation_spotify
+# Spotify genres data
+
+This is a collection of graphs using a dataset of spotify songs available at: 
+https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?select=genres_v2.csv
+
 
 #Correlation of spotify variables
 
