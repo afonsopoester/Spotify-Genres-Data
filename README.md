@@ -26,12 +26,15 @@ genres <- genres %>%
   select(danceability, energy, key, loudness, mode,
          speechiness, acousticness, instrumentalness,
          liveness, valence, tempo, duration_ms, time_signature)
+```
+Genrate Corrplot
 
+```
 M <- cor(genres)
 corrplot(M, method = "pie", type = "upper", order = "AOE",
          tl.cex = 0.75, tl.col = "black",
          diag = F, col = COL2("PiYG"))
 ```
-
+![](corrplot_spotify.png)
 We see almost no correlation
 
