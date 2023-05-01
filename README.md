@@ -4,7 +4,7 @@ This is a collection of graphs using a dataset of spotify songs available at:
 https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?select=genres_v2.csv
 
 
-#Correlation of spotify variables
+# Correlation of spotify variables
 
 This is a code using a dataset of spotify songs available at: 
 https://www.kaggle.com/datasets/mrmorj/dataset-of-songs-in-spotify?select=genres_v2.csv
